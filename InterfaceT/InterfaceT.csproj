@@ -43,8 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Object\FireableObject.cs" />
+    <Compile Include="Object\StaticEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weapon\Bow.cs" />
+    <Compile Include="Weapon\BigSteelBall.cs" />
+    <Compile Include="Weapon\Interface\IBowWeapon.cs" />
+    <Compile Include="Object\Interface\IFireable.cs" />
+    <Compile Include="Object\Interface\IMagneticable.cs" />
+    <Compile Include="Weapon\Interface\ISpearWeapon.cs" />
+    <Compile Include="Weapon\Interface\ISwordWeapon.cs" />
+    <Compile Include="Object\Interface\ITimeStopable.cs" />
+    <Compile Include="Weapon\Interface\IMeleeWeapon.cs" />
+    <Compile Include="Weapon\Interface\IWeapon.cs" />
+    <Compile Include="Weapon\SteelSword.cs" />
+    <Compile Include="Weapon\MeleeWeapon.cs" />
+    <Compile Include="Weapon\WoodSpear.cs" />
+    <Compile Include="Weapon\WoodSword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

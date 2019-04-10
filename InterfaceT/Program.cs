@@ -10,6 +10,9 @@ namespace InterfaceT
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hi");
+
+            var WoodSword = new Weapon.WoodSword();
         }
     }
 }
